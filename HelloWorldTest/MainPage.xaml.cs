@@ -13,14 +13,14 @@ namespace HelloWorldTest
          
         }
 
-        private void DatePicker_Focused(object sender, FocusEventArgs e)
+        private void TimePicker_Focused(object sender, FocusEventArgs e)
         {
-            Application.Current.MainPage.DisplayAlert("DatePicker", "DatePicker Focused", "OK");
+            Application.Current.MainPage.DisplayAlert("TimePicker", "TimePicker Focused", "OK");
         }
 
-        private void DatePicker_Unfocused(object sender, FocusEventArgs e)
+        private void TimePicker_Unfocused(object sender, FocusEventArgs e)
         {
-            Application.Current.MainPage.DisplayAlert("DatePicker", "DatePicker Unfocused", "OK");
+            Application.Current.MainPage.DisplayAlert("TimePicker", "TimePicker Unfocused", "OK");
         }
     }
 
