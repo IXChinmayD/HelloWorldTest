@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorldTest.MainPage">
-
+  <ContentPage.Content>
 
     <StackLayout>
         <!--  <DatePicker Date="06/21/2022" Focused="DatePicker_Focused" Unfocused="DatePicker_Unfocused"></DatePicker> -->
             <TimePicker  Focused="TimePicker_Focused" Unfocused="TimePicker_Unfocused"></TimePicker>
     </StackLayout>
-
+    </ContentPage.Content>
 </ContentPage>
